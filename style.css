@@ -1,0 +1,148 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+}
+.header__link {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.header__link:hover {
+    color: #EF4423;
+}
+.header__intro {
+    margin-top: 15px;
+}
+/* ------------------------------------------------------------ */
+.main {
+    margin-top: 30px;
+}
+.content {
+    display: flex;
+}
+.main__card-photo {
+    height: 100%;
+}
+.main__card {
+    width: 25%;
+     display: flex;
+    flex-direction: column;
+    background-color: crimson;
+}
+.main__card-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+    color: aliceblue;
+    margin: 0;
+    margin: 15px 15px 15px;
+}
+.main__color {
+    background-color: blueviolet;
+}
+.main__color2 {
+    background-color: rgb(48, 36, 179);
+}
+.main__color3 {
+    background-color: darkgreen;
+}
+.main__desc {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #EBEBEB;
+}
+.headline{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center; 
+    margin-top: 40px;
+
+
+color: #3A3838;
+}
+.news {
+    background: #EDEDED;;
+}
+.footer__link {
+    display: flex;
+    margin-top: 40px;
+}
+.news__p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #686868;
+}
+.news__list {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+
+color: #3A3838;
+}
+
+\* -------------------- */
+
+.footer__bot{
+    background: #3A3838;
+    margin-top: 50px;
+    height: 128px;
+
+    
+}
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+
+}
+.footer__ul {
+    display: flex;
+    list-style: none;
+    
+}
+.kopto {
+   text-decoration: none;
+   color: #FFFFFF;
+   margin-right: 15px; 
+}
+.kopto:hover{
+    color: #EF4423;
+}
+.name__footer {
+    align-items: center;
+    background: #3A3838;
+    height: 128px;
+}
